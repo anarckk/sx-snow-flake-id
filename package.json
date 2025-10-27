@@ -1,6 +1,6 @@
 {
   "name": "sx-snow-flake-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A utility library for generating snowflake IDs",
   "main": "dist/snow-flake-id.js",
@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anarankk/sx-snow-flake-id"
+    "url": "https://github.com/anarckk/sx-snow-flake-id"
   }
 }
