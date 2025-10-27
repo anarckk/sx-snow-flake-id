@@ -1,0 +1,36 @@
+{
+  "name": "sx-snow-flake-id",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A utility library for generating snowflake IDs",
+  "main": "dist/snow-flake-id.js",
+  "module": "dist/snow-flake-id.esm.js",
+  "types": "dist/snow-flake-id.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snowflake",
+    "id-generator",
+    "unique-id",
+    "distributed"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-commonjs": "^28.0.9",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.52.5",
+    "rollup-plugin-dts": "^6.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anarankk/sx-snow-flake-id"
+  }
+}
